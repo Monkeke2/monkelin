@@ -3187,6 +3187,7 @@
 #include "code\modules\jobs\job_types\peasants\gravedigger.dm"
 #include "code\modules\jobs\job_types\peasants\hunter.dm"
 #include "code\modules\jobs\job_types\peasants\jester.dm"
+#include "code\modules\jobs\job_types\peasants\sweeper.dm"
 #include "code\modules\jobs\job_types\peasants\miner.dm"
 #include "code\modules\jobs\job_types\peasants\prisoner.dm"
 #include "code\modules\jobs\job_types\peasants\soilson.dm"
