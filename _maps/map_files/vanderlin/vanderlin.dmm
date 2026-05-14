@@ -1991,7 +1991,15 @@
 /turf/open/floor/blocks/paving,
 /area/indoors/town/bath)
 "aWB" = (
-/obj/structure/table/wood/plain_alt,
+/obj/item/broom,
+/obj/item/natural/bundle/cloth{
+	amount = 5
+	},
+/obj/structure/closet/crate/chest/crate,
+/obj/item/soap,
+/obj/item/soap,
+/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "aWO" = (
@@ -9221,9 +9229,6 @@
 /obj/item/reagent_containers/glass/bucket/wooden,
 /obj/item/essence_node_jar{
 	pixel_x = -7;
-	pixel_y = 17
-	},
-/obj/structure/chem_separator{
 	pixel_y = 17
 	},
 /turf/open/floor/blocks/stonered/tiny,
@@ -17991,6 +17996,32 @@
 /area/indoors/town/keep/captain)
 "iGe" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/rack/shelf,
+/obj/structure/table/wood/plain_alt,
+/obj/item/storage/sack{
+	pixel_x = 10;
+	pixel_y = 37
+	},
+/obj/item/storage/sack{
+	pixel_x = 0;
+	pixel_y = 37
+	},
+/obj/item/storage/sack{
+	pixel_x = -10;
+	pixel_y = 37
+	},
+/obj/item/burial_shroud{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/item/burial_shroud{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/burial_shroud{
+	pixel_x = -6;
+	pixel_y = 12
+	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "iGp" = (
@@ -18472,9 +18503,9 @@
 /turf/open/floor/blocks,
 /area/under/town/sewer)
 "iQr" = (
-/obj/effect/decal/cleanable/ritual_rune/arcyne/summoning/mid,
-/turf/open/floor/cobblerock,
-/area/indoors/town/keep/magician)
+/obj/structure/handcart,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town)
 "iQw" = (
 /obj/machinery/light/fueled/campfire/longlived,
 /turf/open/floor/dirt/road,
@@ -21553,7 +21584,8 @@
 /turf/open/floor/grass,
 /area/indoors/town/church/inquisition)
 "klY" = (
-/obj/machinery/light/fueled/torchholder/r,
+/obj/machinery/light/fueled/wallfire/candle/weak/r,
+/obj/effect/landmark/start/sweeper,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "kma" = (
@@ -21751,10 +21783,6 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/blocks,
 /area/under/town/basement)
-"krf" = (
-/obj/item/mould/customizable,
-/turf/open/floor/cobblerock,
-/area/indoors/town/smithy)
 "kri" = (
 /obj/structure/fluff/clock,
 /obj/effect/decal/borderfall{
@@ -23406,9 +23434,11 @@
 /turf/open/floor/metal/barograte,
 /area/indoors/town/dwarfin)
 "lec" = (
-/obj/structure/door/weak/bolt{
-	dir = 4
+/obj/structure/door{
+	name = "Sweeper's Closet"
 	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/sweeper,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "leJ" = (
@@ -29526,9 +29556,7 @@
 /turf/open/openspace,
 /area/indoors/town/garrison)
 "nYo" = (
-/obj/structure/chair/wood/alt/chair3{
-	dir = 4
-	},
+/obj/structure/bed/shit,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "nYq" = (
@@ -52445,7 +52473,6 @@
 /obj/item/clothing/head/hatfur,
 /obj/item/clothing/armor/basiceast/crafteast,
 /obj/item/clothing/pants/trou/shadowpants,
-/obj/item/clothing/shoes/boots/armor/matthios/lord,
 /turf/open/floor/tile,
 /area/indoors/town/keep/lord_appt)
 "yiz" = (
@@ -67661,7 +67688,7 @@ qRG
 dVG
 ner
 tbW
-iQr
+tbW
 tbW
 ner
 ner
@@ -114185,7 +114212,7 @@ fWg
 hCp
 hCp
 hCp
-krf
+gjf
 tFy
 xys
 xys
@@ -151729,7 +151756,7 @@ biy
 biy
 xhZ
 nKC
-qcD
+iQr
 klY
 aWB
 pkd

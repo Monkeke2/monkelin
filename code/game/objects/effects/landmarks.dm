@@ -292,6 +292,10 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = JOB_CHEESEMAKER
 	jobs_to_spawn = list(JOB_CHEESEMAKER)
 
+/obj/effect/landmark/start/sweeper
+	name = JOB_SWEEPER
+	jobs_to_spawn = list(JOB_SWEEPER)
+
 /obj/effect/landmark/start/vagrant
 	name = JOB_BEGGAR
 	jobs_to_spawn = list(JOB_BEGGAR)
