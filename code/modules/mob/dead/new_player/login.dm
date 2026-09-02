@@ -42,7 +42,7 @@
 		if(client)
 			var/usedkey = get_display_ckey(ckey)
 			var/list/thinz = list("takes [client.p_their()] seat.", "settles in.", "joins the session", "joins the table.", "becomes a player.")
-			SEND_TEXT(world, "<span class='notice'>[usedkey] [pick(thinz)]</span>")
+			to_chat(world, "<span class='notice'>[usedkey] [pick(thinz)]</span>")
 
 	// client?.change_view(8)
 	// sleep(1 SECONDS)
