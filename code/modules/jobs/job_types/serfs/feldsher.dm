@@ -109,3 +109,6 @@
 	beltl = /obj/item/storage/fancy/ifak
 	beltr = /obj/item/storage/belt/pouch
 	ring = /obj/item/clothing/ring/feldsher_ring
+	backpack_contents = list(
+		/obj/item/folding_table_stored
+	)
