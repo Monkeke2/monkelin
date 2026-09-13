@@ -1,7 +1,0 @@
-author: "TheDoktorZ"
-delete-after: True
-changes:
-  - qol: "Keys for Triumph-class Heirs"
-  - balance: "Gave the Royal Knight a dagger"
-  - bugfix: "Duplicate equipment from MAA & Squire gone"
-  - bugfix: "Axeman-At-Arms has their gambeson"
